@@ -76,7 +76,7 @@ param (
     
     [Parameter(
         Mandatory = $False, 
-        HelpMessage = "If generated password should exclude uppercase letters"
+        HelpMessage = "Set wheter you'd like generated person(s) to be Male or Female"
     )]
     [ValidateSet("Male","Female")]
     [String]$Gender,
